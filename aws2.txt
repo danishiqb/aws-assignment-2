@@ -1,0 +1,33 @@
+1- What are 3 fundamentals of AWS pricing?
+Ans:- there are three fundamental drivers of cost with AWS which are compute , storage and outbound data transfer.
+      a - compute consist of services like EMR ,EC2 ES etc
+      b - storage consist of services like S3 ,EFS , EBS etc
+      c- outbound data transfer is aggregated accross services and then charged at the outbound data transfer
+
+
+2- What are regional and global services?
+Ans :- a) regional services in AWS are EC2 ,ECS , LAMBDA ,EBS, RDS,KMS ,SNS , CLOUDWATCH and Cloudtrail etc
+       b)  Global services in AWS are IAM ,S3, DIRECT CONNECT ,ROUT 53 etc
+
+3- What is region?
+Ans :- region is nothing but geographical area  with 3 or more availability zone isolated from other AWS regions.
+
+4- What is an AZ ?
+Ans:-  one or more data centers that are physically separate and isolated from others and connected with high speed network
+
+5- What is point of presence ?
+Ans :- Edge location and regional cache are called as point of presence.
+
+6. What are the different types of cloud based on service and deployment?
+Ans :- a) private cloud:-An enterprise deployes there own infrastructure and application into their own data centers.
+       b) public cloud:-The IT service that you consume are hosted and delivered from a third party accessed over the internet.
+       c) Hybrid cloud:-A combination of private cloud and public cloud
+       d) Multi cloud:-Usage of two or more public cloud at a time and possibly multiple private cloud.
+
+7 - Explain about global infrastructure components?
+Ans :-  Global infrastructure components are availability zone, region , edge location , regional edge location and global network.
+        a) availability zone :- one or more data centers that are physically separate and isolated from others and connected with high speed network.
+        b) region :- region is nothing but geographical area  with 3 or more availability zone isolated from other AWS regions.
+        c) edge location :- A location with a cache of content that can be delivered at low latency to users used by cloud front.
+        d) regional edge location :-It is also part of cloud front network these are lagrger cache sit between  AWS servicea and edge location.
+        e) global network :- High available , low latency private global network interconnecting every data center ,AZ ,AWS region 
